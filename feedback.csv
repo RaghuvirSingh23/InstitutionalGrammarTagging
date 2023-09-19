@@ -1,0 +1,3 @@
+sentence,attr_gen,aim_gen,deontic_gen,attr_feedback,aim_feedback,deontic_feedback
+,,,,right,right,wrong
+,the salary,exceeds calculated,shall,right,right,wrong
