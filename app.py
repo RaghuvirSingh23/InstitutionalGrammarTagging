@@ -162,7 +162,6 @@ def text_processor():
     return render_template_string(
         html_template,
         output_text=output_text,
-        sentence = sentence,
         attr_gen=attr_gen,  
         aim_gen=aim_gen,
         deontic_gen=deontic_gen
