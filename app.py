@@ -514,4 +514,4 @@ def tokenise(case,doc,root_verb,root_aux):
 
 
 if __name__ == '__main__':
-    app.run(host='0.0.0.0', port=3030)
+    app.run()
