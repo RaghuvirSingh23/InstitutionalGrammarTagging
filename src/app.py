@@ -1,5 +1,5 @@
 from flask import Flask, request, render_template_string, redirect, url_for, render_template
-
+from flask_ngrok import run_with_ngrok
 import spacy
 from spacy import displacy
 import numpy as np
@@ -8,6 +8,7 @@ from markupsafe import Markup
 import csv
 
 app = Flask(__name__)
+
 nlp = spacy.load('en_core_web_lg')
 
 html_template = """
